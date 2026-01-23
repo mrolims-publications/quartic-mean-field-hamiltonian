@@ -238,13 +238,13 @@ The recommendation is:
 For questions, suggestions, or collaboration, please reach out to:
 
 - [rolim.sales.m[at]gmail.com](mailto:rolim.sales.m@gmail.com)
-- [mrolims.github.io](https://mrolim.github.io)
+- [mrolims.github.io](https://mrolims.github.io)
 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Acknowledments
+## Acknowledgments
 
 This project was financed, in part, by the São Paulo Research Foundation (FAPESP, Brazil), under process numbers 2023/08698-9 and 2024/09208-8.
 
