@@ -1,0 +1,9 @@
+*.png
+*.dat
+*.x
+*.out
+.DS_Store
+
+__pycache__/
+data/
+figures/
