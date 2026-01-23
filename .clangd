@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    [
+      "-I/opt/homebrew/opt/libomp/include",
+      "-L/opt/homebrew/opt/libomp/lib",
+      "-I/opt/homebrew/Cellar/gsl/2.8/include",
+      "-L/opt/homebrew/Cellar/gsl/2.8/lib",
+      "-lgsl",
+      "-lgslcblas",
+      "-lm",
+    ]
