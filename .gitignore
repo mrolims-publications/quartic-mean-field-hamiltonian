@@ -3,6 +3,8 @@
 *.x
 *.out
 .DS_Store
+.clangd
+.clang-format
 
 __pycache__/
 data/

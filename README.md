@@ -56,18 +56,6 @@ brew install gsl
 sudo apt install libgsl-dev
 ```
 
-### Linear algebra and math libraries
-
-The following libraries are linked automatically depending on the platform:
-
-- macOS:
-  - Accelerate framework (-framework Accelerate)
-  - Standard math library (libm)
-
-- Linux:
-  - LAPACK (liblapack)
-  - Standard math library (libm)
-
 ### Build system
 
 - GNU Make
@@ -88,7 +76,6 @@ The following libraries are linked automatically depending on the platform:
 ├── include/ # Public header files
 │ ├── allocs.h
 │ ├── integrator.h
-│ ├── linalg.h
 │ ├── lyapunov.h
 │ ├── math_helpers.h
 │ ├── model.h
@@ -99,7 +86,6 @@ The following libraries are linked automatically depending on the platform:
 ├── src/ # Core implementation files
 │ ├── allocs.c
 │ ├── integrator.c
-│ ├── linalg.c
 │ ├── lyapunov.c
 │ ├── math_helpers.c
 │ ├── model.c
@@ -129,10 +115,10 @@ The following libraries are linked automatically depending on the platform:
 ### Notes
 
 - Link-time optimization is enabled by default:
-  - -ipo when using icx
-  - -flto for other compilers
-  - Optimization level is set to -O3
-  - Warnings are enabled (-Wall -Wextra -Wpedantic)
+  - `-ipo` when using `icx`
+  - `-flto` for other compilers
+  - Optimization level is set to `-O3`
+  - Warnings are enabled (`-Wall -Wextra -Wpedantic`)
 
 ## Build and Usage
 

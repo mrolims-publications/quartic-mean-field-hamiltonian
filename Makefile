@@ -20,12 +20,12 @@ ifeq ($(UNAME_S),Darwin)
 	# macOS (Homebrew)
 	GSL_INC := -I/opt/homebrew/include
 	GSL_LIB := -L/opt/homebrew/lib
-	LFLAGS  := $(GSL_LIB) -lgsl -lgslcblas -lm -framework Accelerate
+	LFLAGS  := $(GSL_LIB) -lgsl -lgslcblas -lm
 else
 	# Linux
 	GSL_INC := -I/usr/include
 	GSL_LIB := -L/usr/lib
-	LFLAGS  := $(GSL_LIB) -lgsl -lgslcblas -lm -llapack
+	LFLAGS  := $(GSL_LIB) -lgsl -lgslcblas -lm
 endif
 
 CFLAGS += $(GSL_INC)
