@@ -39,8 +39,8 @@ Windows is not supported natively. Users on Windows can run the code by installi
 
 This project depends on the GNU Scientific Library (GSL), including
 
-- libgsl
-- libglscblas
+- `libgsl`
+- `libglscblas`
 
 GSL must be installed system-wide and discoverable by the compiler.
 
@@ -101,11 +101,11 @@ sudo apt install libgsl-dev
 │ └── std_on_site_energy_history.c
 │
 ├── scripts/ # Scripts to generate simulation data
-│   ├── fig01.sh
-│   ├── fig02.sh
-│   ├── fig03.sh
-│   ├── fig04.sh
-│   └── fig05.sh
+│ ├── fig01.sh
+│ ├── fig02.sh
+│ ├── fig03.sh
+│ ├── fig04.sh
+│ └── fig05.sh
 │
 ├── LICENSE
 ├── Makefile
@@ -130,7 +130,7 @@ From the root directory of the project, simply run:
 make
 ```
 
-This will compile all executables defined in `programs/` and place the resulting binaries in the `bin/` directory, which is created automatically if it does not already exist.
+This will compile all programs defined in `programs/` and place the resulting binaries in the `bin/` directory, which is created automatically if it does not already exist.
 
 To build a specific executable only, run:
 
@@ -171,6 +171,7 @@ All programs accept command-line arguments specifying system size, energy, integ
 For instance, the above command results in:
 
 ```text
+$ ./bin/q_history.x
 Usage: ./bin/q_history.x <dof> <eps> <total_time> <seed>
 
 Arguments:
@@ -178,6 +179,7 @@ Arguments:
   <eps>         Specific energy ε = E / N
   <total_time>  Total integration time
   <seed>        Random number generator seed
+$
 ```
 
 The correct way of executing it should then be
