@@ -223,7 +223,9 @@ The recommendation is:
 
 ## Citation
 
-If you use this code in your research, please consider citing the associated paper:
+If you use this repository or parts of it in your work, please consider citing our research paper:
+
+*M. Rolim Sales et al.*, **On the dynamical and statistical properties of a quartic mean field Hamiltonian model**, *[Chaos, Solitons and Fractals 211, 118787 (2026)](https://doi.org/10.1016/j.chaos.2026.118787)*.
 
 ```bibtex
 @article{Sales2026,
