@@ -1,8 +1,8 @@
 # quartic-mean-field-hamiltonian
 
-Code repository accompanying the publication entitled "On the dynamical and statistical properties of a quartic mean field Hamiltonian model".
+Code repository accompanying the publication entitled "[On the dynamical and statistical properties of a quartic mean field Hamiltonian model](https://doi.org/10.1016/j.chaos.2026.118787)".
 
-This project contains the code to generateaall the data from all the figures. Please, keep in mind that most simulations in this project take days to months to finish.
+This project contains the code to generate all the data from all the figures. Please, keep in mind that most simulations in this project take days to months to finish.
 
 ## Requirements
 
@@ -220,6 +220,23 @@ The recommendation is:
 - run the scripts on high-performance computing (HPC) systems when possible,
 - carefully inspect and adjust the simulation parameters before execution,
 - test the scripts with reduced system sizes or shorter integration times to validate the workflow.
+
+## Citation
+
+If you use this code in your research, please consider citing the associated paper:
+
+```bibtex
+@article{Sales2026,
+title = {On the dynamical and statistical properties of a quartic mean-field Hamiltonian model},
+journal = {Chaos, Solitons \& Fractals},
+volume = {211},
+pages = {118787},
+year = {2026},
+doi = {https://doi.org/10.1016/j.chaos.2026.118787},
+url = {https://www.sciencedirect.com/science/article/pii/S0960077926009288},
+author = {Matheus Rolim Sales and Edson Denis Leonel and Chris G. Antonopoulos},
+}
+```
 
 ## Contact
 
